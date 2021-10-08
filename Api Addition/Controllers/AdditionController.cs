@@ -17,8 +17,13 @@ namespace Api_Addition.Controllers
         {
         return (numa + numb);
         }
+        [HttpGet]
+        [Route(mult)]
+        public int Add(int numa, int numb)
+        {
+            return (numa + numb);
+        }
 
 
-
-}
+    }
 }
